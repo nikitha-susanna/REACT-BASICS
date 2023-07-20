@@ -1,0 +1,16 @@
+The four major life cycle methods are 
+1) Mounting --> when an instance of a component is being created and inserted into the DOM
+      a) constructor (props) --> a special function that gets called when an new component is created must initlize it as super
+      b) static getDerivedStateFromProps (props, state)  --> 
+      c) render --> is the only required method and we read props and state and return the JSX
+      d) componentDidMount() --> is invoked only once after all the child components have been rendered to the DOM, and is the best place to cause any side effects
+2) Updating --> When a component are being rerendered as a  result of changes to either it's props or state
+      a) static getDerivedStateFromProps (props, state)  --> 
+      b) shouldComponentUpdate(nextProps, nextState) --> it compares the current state and props with the new state and props and returns true or false to increase performence 
+      c) render () --> 
+      d) getSnapshortBeforeUpdate(prevProps, prevState) -->
+      c) componentDidUpdate(prevProps, prevState, snapshot)
+3) Unmounting --> When the component is being removed form the DOM
+4) Error Handleing --> When there is an error during rendering, in a lifecycle method, or in the constructor of any child component
+
+

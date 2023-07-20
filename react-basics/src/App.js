@@ -9,6 +9,12 @@ import ClassClick from './components/Events-and-event-binding/ClassClick';
 import EventBind from './components/Events-and-event-binding/EventBind';
 import ParentComponent from './components/Passing-function-as-props/ParentComponent';
 import UserGreeting from './components/Conditional-rendering/If-else-approach';
+import UserWelcome from './components/Conditional-rendering/element-variables';
+import UserLoginMessage from './components/Conditional-rendering/trenary-operator';
+import Lists from './components/Functional-components/Lists';
+import ColorComp from './components/Styling/ColorComp';
+import Form from './components/Forms/Form';
+import LifecycleA from './components/Life-cycle/LifecycleA';
 
 function App() {
   return (
@@ -26,7 +32,13 @@ function App() {
       <ClassClick/> */}
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
-      <UserGreeting />
+      {/* <UserGreeting /> */}
+      {/* <UserWelcome /> */}
+      {/* <UserLoginMessage/> */}
+      {/* <Lists/> */}
+      {/* <ColorComp/> */}
+      {/* <Form/> */}
+      <LifecycleA/>
     </div>
   );
 }

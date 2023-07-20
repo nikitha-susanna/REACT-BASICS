@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function UserGreeting (props) {
+function UserGreeting () {
    const [isLoggedIn, setIsLoggedIn] = useState(true)
 
    if (isLoggedIn){
